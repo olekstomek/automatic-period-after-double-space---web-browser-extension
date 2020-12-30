@@ -1,3 +1,4 @@
+console.log('foreground works works first!');
 (function() {
     console.log('foreground works!');
     document.addEventListener('keyup', function(event) {
