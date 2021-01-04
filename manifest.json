@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Period Formed By Double Space",
     "description": "This extension turns double spaces into period and space.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "Tomasz Oleksik",
     "browser_action": {
         "default_icon": "resources/icon_128x128.png",
@@ -13,8 +13,5 @@
         "matches": ["http://*/*", "https://*/*"],
         "js": ["./contentscript.js"]
     }],
-    "permissions": [
-        "http://*/",
-        "https://*/"
-    ]
+    "permissions": ["activeTab"]
 }
