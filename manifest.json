@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "Dot Formed By Double Space",
-    "description": "This extension turns double spaces into period and spaces.",
-    "version": "1.0.1",
+    "name": "Period Formed By Double Space",
+    "description": "This extension turns double spaces into period and space.",
+    "version": "1.0.2",
     "author": "Tomasz Oleksik",
     "browser_action": {
         "default_icon": "resources/icon_128x128.png",
